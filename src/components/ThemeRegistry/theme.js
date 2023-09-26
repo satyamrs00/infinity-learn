@@ -20,7 +20,14 @@ const theme = createTheme({
           fontSize: '1rem',
         }
       }
-    }
+    },
+    MuiTab: {
+      styleOverrides: {
+        root: {
+          textTransform: 'none',
+        }
+      }
+    },
   },
 });
 
