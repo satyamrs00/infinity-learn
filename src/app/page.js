@@ -6,6 +6,7 @@ import call from './../assets/SVGs/call.svg'
 import Landing from '@/components/Landing';
 import Overview from '@/components/Overview';
 import Schedule from '@/components/Schedule';
+import Faculty from '@/components/Faculty';
 
 export default function HomePage() {
   return (
@@ -63,6 +64,7 @@ export default function HomePage() {
       <Landing />
       <Overview />
       <Schedule />
+      <Faculty />
     </div>
   );
 }

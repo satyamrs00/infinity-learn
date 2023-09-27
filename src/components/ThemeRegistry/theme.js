@@ -13,7 +13,10 @@ const theme = createTheme({
     },
     yellow: {
       main: '#FCDE5A'
-    }
+    },
+    black: {
+      main: '#080E14'
+    },
   },
   components: {
     MuiButton: {
