@@ -5,6 +5,7 @@ import logo from './../assets/images/Group 45506.png'
 import call from './../assets/SVGs/call.svg'
 import Landing from '@/components/Landing';
 import Overview from '@/components/Overview';
+import Schedule from '@/components/Schedule';
 
 export default function HomePage() {
   return (
@@ -61,6 +62,7 @@ export default function HomePage() {
       <div className='h-[1px] w-full bg-[#2C91FF]'></div>
       <Landing />
       <Overview />
+      <Schedule />
     </div>
   );
 }
