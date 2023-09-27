@@ -8,6 +8,7 @@ import Overview from '@/components/Overview';
 import Schedule from '@/components/Schedule';
 import Faculty from '@/components/Faculty';
 import Books from '@/components/Books';
+import Syllabus from '@/components/Syllabus';
 
 export default function HomePage() {
   return (
@@ -67,6 +68,7 @@ export default function HomePage() {
       <Schedule />
       <Faculty />
       <Books />
+      <Syllabus />
     </div>
   );
 }
