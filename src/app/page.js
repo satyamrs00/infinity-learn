@@ -10,6 +10,7 @@ import Faculty from '@/components/Faculty';
 import Books from '@/components/Books';
 import Syllabus from '@/components/Syllabus';
 import Benefits from '@/components/Benefits';
+import Reviews from '@/components/Reviews';
 
 export default function HomePage() {
   return (
@@ -71,6 +72,7 @@ export default function HomePage() {
       <Books />
       <Syllabus />
       <Benefits />
+      <Reviews />
     </div>
   );
 }

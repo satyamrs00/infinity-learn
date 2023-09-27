@@ -6,9 +6,7 @@ import Image from 'next/image'
 import { Button } from '@mui/material'
 const PlanCard = ({ plan }) => {
 	return (
-		<div className="bg-white rounded-xl p-4 flex flex-col gap-6" style={{
-			boxShadow: '0px 0px 20px 0px #9AA0D34D'
-		}}>
+		<div className="bg-white rounded-xl p-4 flex flex-col gap-6 shadow-[0px_0px_20px_0px_#9AA0D34D] mb-4">
 			{plan.recommended && <div className='-ms-8'>
 				<Image src={recco} alt='recco' width={180} height={0} />
 			</div>}

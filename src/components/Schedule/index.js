@@ -3,7 +3,7 @@ import ScheduleCard from "./ScheduleCard"
 
 const Schedule = () => {
 	return (
-		<div className="py-12 px-16 w-full bg-white flex flex-col items-center">
+		<div className="py-12 px-16 w-full flex flex-col items-center">
 			<div className="bg-[#F1F2F6] rounded-xl p-6 w-full">
 				<div className="text-5xl font-bold mb-2">schedule</div>
 				<div className="flex justify-between">

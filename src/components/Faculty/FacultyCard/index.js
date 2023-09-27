@@ -2,9 +2,7 @@ import Image from "next/image";
 
 const FacultyCard = ({ name, image, headline, subject, usp }) => {
 	return (
-		<div className="bg-white rounded-xl p-2 flex flex-col gap-2 items-center" style={{
-			boxShadow: '0px 4px 20px 0px #0060A933'
-		}}>
+		<div className="bg-white rounded-xl p-2 flex flex-col gap-2 items-center shadow-[0px_4px_20px_0px_#0060A933]">
 			<Image src={image} alt={name} width={350} height={0} />
 			<div className="text-2xl text-black font-bold">{name}</div>
 			<div className="text-[#52565B]">{headline}</div>
