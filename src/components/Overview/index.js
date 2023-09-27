@@ -29,7 +29,7 @@ const Overview = () => {
 					</div>
 				</div>
 				<div className="flex justify-center">
-					<Image src={blue} alt="blue" className="w-4/5 " />
+					<Image src={blue} alt="blue" width={550} height={0} />
 				</div>
 			</div>
 		</div>

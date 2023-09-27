@@ -8,9 +8,9 @@ const Landing = () => {
 	return (
 		<div className='p-10 px-16 w-full bg-[#007BFF] text-[#EDEDED] grid grid-cols-2 '>
 			<div className='flex justify-center'>
-				<Image src={yellow} alt='yellow' className='w-4/5' />
+				<Image src={yellow} alt='yellow' width={550} height={0} />
 			</div>
-			<div className='flex flex-col gap-4'>
+			<div className='flex flex-col gap-4 p-2'>
 				<div>
 					<span className='text-[#FCDE5A]'>full syllabus course</span>
 					<span> + revision + test series</span>

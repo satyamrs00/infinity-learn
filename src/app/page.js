@@ -7,6 +7,7 @@ import Landing from '@/components/Landing';
 import Overview from '@/components/Overview';
 import Schedule from '@/components/Schedule';
 import Faculty from '@/components/Faculty';
+import Books from '@/components/Books';
 
 export default function HomePage() {
   return (
@@ -65,6 +66,7 @@ export default function HomePage() {
       <Overview />
       <Schedule />
       <Faculty />
+      <Books />
     </div>
   );
 }
