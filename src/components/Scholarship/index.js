@@ -15,7 +15,7 @@ const Scholarship = () => {
 					</Button>
 				</div>
 				<div className='h-full absolute flex flex-col justify-end'>
-					<div className='overflow-hidden h-[15rem] -ms-[30%]'>
+					<div className='overflow-hidden h-[15rem] -ms-[30%] lg:ms-0'>
 						<div className='bg-[#004463] w-[25rem] lg:w-[40rem] aspect-square rounded-full'></div>
 					</div>
 				</div>
