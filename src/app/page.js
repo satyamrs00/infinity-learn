@@ -22,7 +22,7 @@ export default function HomePage() {
     <div
       className={`flex min-h-screen flex-col items-center justify-start `}
     >
-      <nav className='bg-[#007BFF] w-full text-[#E7E7E7] py-2 px-4 lg:px-12 flex items-center justify-end gap-4'>
+      <nav className='bg-[#007BFF] w-full text-[#E7E7E7] py-2 px-4 lg:px-12 flex items-center justify-end gap-4 lg:gap-6'>
         <div className='flex gap-2 items-center me-auto'>
           <Image 
             src={logo}
@@ -73,7 +73,7 @@ export default function HomePage() {
         <Image src={ham} alt='ham' width={18} height={0} className='lg:hidden'/>
       </nav>
       <div className='h-[1px] w-full bg-[#2C91FF] hidden lg:block'></div>
-      <div className='px-4 bg-[#007BFF] w-full'>
+      <div className='px-4 bg-[#007BFF] w-full lg:hidden'>
         <Button variant='contained' disableElevation color='white' fullWidth sx={{ justifyContent: 'space-between'}} >
           class 12+ | NEET
           <Image src={drop} alt='drop' width={9} height={0} />
