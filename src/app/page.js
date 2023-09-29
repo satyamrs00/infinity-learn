@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import Image from 'next/image'
-import logo from './../assets/images/Group 45506.png'
+import logo from './../assets/SVGs/Group 45506.svg'
 import call from './../assets/SVGs/call.svg'
 import Landing from '@/components/Landing';
 import Overview from '@/components/Overview';
@@ -13,6 +13,7 @@ import Benefits from '@/components/Benefits';
 import Reviews from '@/components/Reviews';
 import Scholarship from '@/components/Scholarship';
 import Download from '@/components/Download';
+import Footer from '@/components/Footer';
 
 export default function HomePage() {
   return (
@@ -77,6 +78,7 @@ export default function HomePage() {
       <Reviews />
       <Scholarship />
       <Download />
+      <Footer />
     </div>
   );
 }
