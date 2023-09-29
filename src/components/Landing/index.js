@@ -9,7 +9,7 @@ import Button from '@mui/material/Button';
 
 const Landing = () => {
 	return (
-		<div className='pt-10 lg:px-16 w-full bg-[#007BFF] text-[#EDEDED] grid lg:grid-cols-2 grid-cols-1'>
+		<div className='pt-10 lg:pb-10 lg:px-16 w-full bg-[#007BFF] text-[#EDEDED] grid lg:grid-cols-2 grid-cols-1'>
 			<div className='flex justify-center my-4 p-4 lg:p-0'>
 				<Image src={yellow} alt='yellow' width={550} height={0} className='hidden lg:block' />
 				<Image src={yellowM} alt='yellow' width={550} height={0} className='lg:hidden' />
