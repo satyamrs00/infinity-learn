@@ -15,9 +15,9 @@ import ResultCard from './ResultCard'
 const Reviews = () => {
 	return (
 		<div className='w-full'>
-			<div className="bg-[#00364E] p-4 py-8 lg:py-0 lg:p-16 w-full text-white">
+			<div className="bg-[#00364E] p-4 py-8 lg:py-16 lg:p-16 w-full text-white">
 				<div className="text-4xl lg:text-5xl font-bold text-start lg:text-center mb-8 lg:mb-12">reviews and <span className="text-[#FCDE5A]">results</span></div>
-				<div className='flex flex-col lg:flex-row gap-4 lg:gap-6 justify-center mb-52 lg:mb-60'>
+				<div className='bg-[#00364E] flex flex-col lg:flex-row gap-4 lg:gap-6 justify-center mb-52 lg:mb-0 lg:pb-60'>
 					<div className='flex gap-2'>
 						<Image src={star} alt='star' width={20} height={0} />
 						31 Infinity Learners in top 100
