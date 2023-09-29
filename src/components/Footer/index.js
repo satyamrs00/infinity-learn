@@ -8,20 +8,23 @@ import youtube from './../../assets/SVGs/Vector (5).svg'
 import pinterest from './../../assets/SVGs/Vector (6).svg'
 import linkedin from './../../assets/SVGs/Vector (7).svg'
 import logo from './../../assets/SVGs/Group 45506 (1).svg'
+import logoM from './../../assets/SVGs/Artboard 1 2.svg'
 import { Button } from '@mui/material';
 
 const Footer = () => {
 	return (
-		<div className="p-12 w-full bg-white text-[#52565B]">
-			<div className='flex gap-12 items-start'>
-				<div className='flex flex-col gap-2 w-4/12'>
-					<Image src={logo} alt='logo' width={200} height={0} className='mb-2' />
-					<div className='flex gap-2'>
+		<div className="p-4 py-8 lg:p-12 w-full bg-white text-[#52565B]">
+			<div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-start'>
+				<div className='flex flex-col gap-2 w-full lg:w-4/12'>
+					<Image src={logo} alt='logo' width={200} height={0} className='mb-2 hidden lg:block' />
+					<Image src={logoM} alt='logo' width={90} height={0} className='mb-2 lg:hidden' />
+
+					<div className='flex gap-2 text-[#080E14] lg:text-[#52565B]'>
 						<Image src={call} alt='call' width={14} height={0} />
 						1800-419-427
 					</div>
 					<div className='w-full h-[1px] bg-[#E6E7E8]'></div>
-					<div className='flex gap-2'>
+					<div className='flex gap-2 text-[#080E14] lg:text-[#52565B]'>
 						<Image src={mail} alt='mail' width={15} height={0} />
 						support@infinitylearn.com
 					</div>
@@ -30,7 +33,7 @@ const Footer = () => {
 						<Image src={loc} alt='loc' width={12} height={0} className='mt-1'/>
 						6th Floor, NCC Building, Durgamma Cheruvu Road, Vittal Rao Nagar, HITEC City, Hyderabad, Telangana 500081.
 					</div>
-					<div className='flex gap-4 mt-4'>
+					<div className='flex gap-4 mt-4 justify-center lg:justify-start'>
 						<Button variant='outlined' disableElevation color='black' className='aspect-square ' sx={{ borderRadius: '0.5rem', minWidth: '2.5rem', padding: 0}}>
 							<Image src={facebook} alt='facebook' width={8} height={0} />
 						</Button>
@@ -48,9 +51,9 @@ const Footer = () => {
 						</Button>
 					</div>
 				</div>
-				<div className='grid grid-cols-4 gap-8 leading-7'>
+				<div className='grid grid-cols-2 lg:grid-cols-4 gap-8 leading-7'>
 					<div>
-						<div className='text-[#080E14] font-bold text-xl'>company</div>
+						<div className='text-[#080E14] font-bold text-xl mb-2'>company</div>
 						<div>about us</div>
 						<div>our team</div>
 						<div>life at infinity learn</div>
@@ -60,7 +63,7 @@ const Footer = () => {
 						<div>become a teacher</div>
 					</div>
 					<div>
-						<div className='text-[#080E14] font-bold text-xl'>support</div>
+						<div className='text-[#080E14] font-bold text-xl mb-2'>support</div>
 						<div>get in touch</div>
 						<div>privacy policy</div>
 						<div>refund policy</div>
@@ -68,7 +71,7 @@ const Footer = () => {
 						<div>terms and conditions</div>
 					</div>
 					<div>
-						<div className='text-[#080E14] font-bold text-xl'>courses</div>
+						<div className='text-[#080E14] font-bold text-xl mb-2'>courses</div>
 						<div>IITJEE</div>
 						<div>JEE Main</div>
 						<div>JEE Advanced</div>
@@ -79,7 +82,7 @@ const Footer = () => {
 						<div>CBSE tuitions</div>
 					</div>
 					<div>
-						<div className='text-[#080E14] font-bold text-xl'>more</div>
+						<div className='text-[#080E14] font-bold text-xl mb-2'>more</div>
 						<div>IL for schools</div>
 						<div>knowledge hubs</div>
 						<div>scholarships</div>
@@ -87,9 +90,9 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className='mt-16'>
-				<div className='text-5xl mb-8 font-bold text-[#080E14]'>free study <span className='text-[#007BFF]'>material</span></div>
-				<div className='grid grid-cols-4 gap-8'>
+			<div className='mt-10 lg:mt-16'>
+				<div className='text-2xl lg:text-5xl mb-8 font-bold text-[#080E14]'>free study <span className='text-[#007BFF]'>material</span></div>
+				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
 					<div>
 						<div className='text-[#080E14] font-bold text-xl mb-2'>JEE</div>
 						<div>JEE previous year's papers</div>
@@ -180,7 +183,7 @@ const Footer = () => {
 				<div className='w-full h-[1px] my-8 bg-[#E6E7E8]'></div>
 				<div className='flex justify-between items-center'>
 					<div className='text-[#007BFF]'>2023 | www.infinitylearn.com</div>
-					<div className='flex gap-4 items-center'>
+					<div className='flex gap-4 items-center hidden lg:flex'>
 						<div>follow us</div>
 						<div className='flex gap-4'>
 							<Button variant='outlined' disableElevation color='black' className='aspect-square ' sx={{ borderRadius: '0.5rem', minWidth: '2.5rem', padding: 0}}>
