@@ -83,13 +83,13 @@ export default function HomePage() {
       <Overview />
       <Schedule />
       <Faculty />
-      <Books />
+      {/* <Books />
       <Syllabus />
       <Benefits />
       <Reviews />
       <Scholarship />
       <Download />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
