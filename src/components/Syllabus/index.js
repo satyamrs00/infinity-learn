@@ -6,23 +6,23 @@ import Image from 'next/image'
 
 const Syllabus = () => {
 	return (
-		<div className="p-16 w-full">
-			<div className="text-5xl font-bold text-[#080E14] text-center mb-10">syllabus</div>
-			<div className="flex gap-6 justify-center">
-				<div className="p-4 bg-[#FFEDF0] flex gap-4 rounded-2xl text-xl font-bold items-center">
+		<div className="p-4 lg:p-16 w-full">
+			<div className="text-4xl lg:text-5xl font-bold text-[#080E14] text-center mb-10">syllabus</div>
+			<div className="flex flex-col lg:flex-row gap-6 justify-center">
+				<div className="p-4 px-6 bg-[#FFEDF0] flex gap-4 rounded-2xl text-xl font-bold items-center">
 					<Image src={chem} alt='chem' width={50} height={0} />
 					Chemistry
-					<Image src={arrow} alt='arrow' width={20} height={0} className='ms-12'/>
+					<Image src={arrow} alt='arrow' width={20} height={0} className='ms-auto lg:ms-12'/>
 				</div>
-				<div className="p-4 bg-[#FFF3EC] flex gap-4 rounded-2xl text-xl font-bold items-center">
+				<div className="p-4 px-6 bg-[#FFF3EC] flex gap-4 rounded-2xl text-xl font-bold items-center">
 					<Image src={phy} alt='phy' width={50} height={0} />
 					Physics
-					<Image src={arrow} alt='arrow' width={20} height={0} className='ms-12'/>
+					<Image src={arrow} alt='arrow' width={20} height={0} className='ms-auto lg:ms-12'/>
 				</div>
-				<div className="p-4 bg-[#F2FFED] flex gap-4 rounded-2xl text-xl font-bold items-center">
+				<div className="p-4 px-6 bg-[#F2FFED] flex gap-4 rounded-2xl text-xl font-bold items-center">
 					<Image src={bio} alt='bio' width={50} height={0} />
 					Biology
-					<Image src={arrow} alt='arrow' width={20} height={0} className='ms-12'/>
+					<Image src={arrow} alt='arrow' width={20} height={0} className='ms-auto lg:ms-12'/>
 				</div>
 			</div>
 		</div>

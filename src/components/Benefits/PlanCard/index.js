@@ -8,11 +8,11 @@ const PlanCard = ({ plan }) => {
 	return (
 		<div className="bg-white rounded-xl p-4 flex flex-col gap-6 shadow-[0px_0px_20px_0px_#9AA0D34D] mb-4">
 			{plan.recommended && <div className='-ms-8'>
-				<Image src={recco} alt='recco' width={180} height={0} />
+				<Image src={recco} alt='recco' width={180} height={0} className='' />
 			</div>}
-			<div className='flex gap-16'>
+			<div className='flex gap-8 lg:gap-10'>
 				<div className='flex flex-col items-center'>
-					<div className='bg-[#00364E] aspect-square px-4 text-white text-4xl flex justify-center items-center flex-col rounded-xl font-bold'>{plan.months}<div className='font-normal text-sm'>months</div></div>
+					<div className='bg-[#00364E] aspect-square px-6 text-white text-4xl flex justify-center items-center flex-col rounded-xl font-bold'>{plan.months}<div className='font-normal text-sm'>months</div></div>
 					<div className=' bg-[#FCDE5A] px-2 rounded-full w-fit -mt-2 text-[0.7rem]'>save {plan.save}%</div>
 				</div>
 				<div>

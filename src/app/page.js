@@ -84,9 +84,9 @@ export default function HomePage() {
       <Schedule />
       <Faculty />
       <Books />
-      {/* <Syllabus />
+      <Syllabus />
       <Benefits />
-      <Reviews />
+      {/* <Reviews />
       <Scholarship />
       <Download />
       <Footer /> */}
