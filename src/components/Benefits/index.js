@@ -7,8 +7,8 @@ import { Button } from "@mui/material";
 
 const Benefits = () => {
 	return (
-		<div className="bg-[#F3F3F3] w-full py-4 lg:py-16">
-			<div className="flex flex-col lg:flex-row gap-10 px-4 lg:px-16 overflow-x-auto no-scrollbar mb-16 items-stretch lg:items-end">
+		<div className="bg-[#F3F3F3] w-full py-8 lg:py-16">
+			<div className="flex flex-col lg:flex-row gap-4 lg:gap-10 px-4 lg:px-16 overflow-x-auto no-scrollbar mb-4 lg:mb-16 items-stretch lg:items-end">
 				<div className="flex flex-col gap-4 lg:gap-8 lg:self-start lg:me-48">
 					<div className="text-5xl font-bold text-[#080E14] text-center lg:text-start">multiyear<div className="text-[#007BFF]">benefits</div></div>
 					<div className="text-[#52565B] text-center lg:text-start">choose your plan accordingly</div>
@@ -25,7 +25,7 @@ const Benefits = () => {
 				<PlanCard plan={{ recommended: false, months: 24, save: 43, total: '90,000', totalPrev: '120,000', totalPerMonth: '3,750' }} />
 				<PlanCard plan={{ recommended: false, months: 24, save: 43, total: '90,000', totalPrev: '120,000', totalPerMonth: '3,750' }} />
 			</div>
-			<div className="bg-[#D4E9FF] p-4 lg:p-8 mx-4 lg:mx-16 rounded-xl overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-6 items-end">
+			<div className="bg-[#D4E9FF] p-4 lg:p-8 mx-4 my-4 lg:my-0 lg:mx-16 rounded-xl overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-6 items-end">
 				<div className="order-last lg:order-none">
 					<div className="relative">
 						<div className="absolute bg-[#FDE57B] aspect-square rounded-full w-[100%] z-[0] top-[20%] left-[-20%]">

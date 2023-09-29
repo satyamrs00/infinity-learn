@@ -86,10 +86,10 @@ export default function HomePage() {
       <Books />
       <Syllabus />
       <Benefits />
-      {/* <Reviews />
+      <Reviews />
       <Scholarship />
       <Download />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

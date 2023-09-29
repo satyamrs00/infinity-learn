@@ -4,13 +4,13 @@ import air from './../../../assets/SVGs/Group 1000006121.svg'
 
 const ResultCard = ({ result }) => {
 	return (
-		<div className="p-2 flex rounded-xl bg-white mt-10 shadow-[0px_4px_20px_0px_#0083E833] w-[20rem] min-w-[20rem] relative mb-4">
+		<div className="p-2 flex rounded-xl bg-white mt-10 shadow-[0px_4px_20px_0px_#0083E833] w-[20rem] min-w-[20rem] relative mb-4 gap-4">
 			<div className="absolute flex font-bold px-4 py-2 -z-10 pb-10 left-0 -top-10 rounded-t-xl gap-2" style={{ backgroundColor: result.color}}>
 				<Image src={air} alt="air" width={20} height={0} />
 				<div>AIR {result.air} <span>•</span> score {result.score}</div>
 			</div>
 			<div>
-				<Image src={result.image} alt={result.name} width={120} height={0} />
+				<Image src={result.image} alt={result.name} width={120} height={0} className="w-[90px] lg:w-[120px]" />
 			</div>
 			<div className="p-4 flex flex-col">
 				<div className="text-[#080E14] text-lg font-bold">{result.name}</div>

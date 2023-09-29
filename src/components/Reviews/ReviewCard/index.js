@@ -3,7 +3,7 @@ import quotes from "./../../../assets/SVGs/Group (1).svg";
 
 const ReviewCard = ({ review }) => {
 	return (
-		<div className="bg-white shadow-[0px_7px_10px_0px_#9AA0D34D] p-8 rounded-xl ">
+		<div className="bg-white shadow-[0px_7px_10px_0px_#9AA0D34D] p-8 rounded-xl w-full mb-8 min-w-full lg:min-w-0">
 			<div className="flex">
 				<div>
 					<Image src={review.image} alt="review" width={120} height={0} />
