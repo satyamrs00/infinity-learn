@@ -6,11 +6,13 @@ import { Button } from '@mui/material'
 const Scholarship = () => {
 	return (
 		<div className="bg-[#00364E] text-[#CECFD0] px-20 grid grid-cols-2 w-full overflow-hidden">
-			<div className='p-4 pb-0 flex justify-center flex-col items-center'>
+			<div className='p-4 pb-0 flex justify-center flex-col items-center relative'>
 				<Image src={cap} alt='cap' width={120} height={0} className='-mb-8' />
 				<Image src={green} alt='green' width={600} height={0} className='z-10' />
-				<div className='overflow-hidden h-[20rem] absolute mt-[9rem]'>
-					<div className='bg-[#004463] w-[40rem] aspect-square rounded-full  '></div>
+				<div className='h-full absolute flex flex-col justify-end'>
+					<div className='overflow-hidden h-[20rem]'>
+						<div className='bg-[#004463] w-[40rem] aspect-square rounded-full  '></div>
+					</div>
 				</div>
 			</div>
 			<div className='p-20 flex flex-col gap-8'>
