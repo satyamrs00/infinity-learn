@@ -88,8 +88,8 @@ export default function HomePage() {
       <Benefits />
       <Reviews />
       <Scholarship />
-      {/* <Download />
-      <Footer /> */}
+      <Download />
+      <Footer />
     </div>
   );
 }
