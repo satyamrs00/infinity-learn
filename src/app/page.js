@@ -12,6 +12,7 @@ import Syllabus from '@/components/Syllabus';
 import Benefits from '@/components/Benefits';
 import Reviews from '@/components/Reviews';
 import Scholarship from '@/components/Scholarship';
+import Download from '@/components/Download';
 
 export default function HomePage() {
   return (
@@ -75,6 +76,7 @@ export default function HomePage() {
       <Benefits />
       <Reviews />
       <Scholarship />
+      <Download />
     </div>
   );
 }
