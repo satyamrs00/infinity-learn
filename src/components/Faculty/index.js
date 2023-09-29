@@ -13,13 +13,8 @@ const Faculty = () => {
 				<FacultyCard name='Prerana AR' image={faculty2} headline='10+ Years Teaching | NIT Nagpur' subject='Maths' usp='Taught 64 NEET Toppers' />
 				<FacultyCard name='Prerana AR' image={faculty3} headline='10+ Years Teaching | NIT Nagpur' subject='Maths' usp='Taught 64 NEET Toppers' />
 			</div>
-			<div className="text-center mt-10 hidden lg:block">
-				<Button variant='outlined' disableElevation color='black' sx={{ fontWeight: 'bold', borderRadius: '0.5rem', paddingX: '4rem' }} >
-					meet the teachers
-				</Button>
-			</div>
-			<div className="text-center mt-4 lg:hidden">
-				<Button variant='outlined' fullWidth disableElevation color='black' sx={{ fontWeight: 'bold', borderRadius: '0.5rem', paddingX: '4rem' }} >
+			<div className="text-center mt-4 lg:mt-10">
+				<Button variant='outlined' className="w-full lg:w-auto" disableElevation color='black' sx={{ fontWeight: 'bold', borderRadius: '0.5rem', paddingX: '4rem' }} >
 					meet the teachers
 				</Button>
 			</div>

@@ -83,8 +83,8 @@ export default function HomePage() {
       <Overview />
       <Schedule />
       <Faculty />
-      {/* <Books />
-      <Syllabus />
+      <Books />
+      {/* <Syllabus />
       <Benefits />
       <Reviews />
       <Scholarship />
