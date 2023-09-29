@@ -20,7 +20,7 @@ const Overview = () => {
 			</div>
 			<div className="grid grid-cols-1 lg:grid-cols-2 mt-8 gap-8 lg:mt-12 w-full">
 				<div className="flex flex-col items-start lg:items-center gap-8 order-last lg:order-none">
-					<div className="text-5xl font-bold">
+					<div className="text-4xl lg:text-5xl font-bold">
 						<div>all-rounder</div>
 						<div className="text-[#007BFF]">learning!</div>
 					</div>

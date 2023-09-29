@@ -81,7 +81,7 @@ export default function HomePage() {
       </div>
       <Landing />
       <Overview />
-      {/* <Schedule />
+      <Schedule />
       <Faculty />
       <Books />
       <Syllabus />
@@ -89,7 +89,7 @@ export default function HomePage() {
       <Reviews />
       <Scholarship />
       <Download />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
