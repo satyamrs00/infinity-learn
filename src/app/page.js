@@ -16,6 +16,7 @@ import Reviews from '@/components/Reviews';
 import Scholarship from '@/components/Scholarship';
 import Download from '@/components/Download';
 import Footer from '@/components/Footer';
+import School from '@/components/School';
 
 export default function HomePage() {
   return (
@@ -79,15 +80,16 @@ export default function HomePage() {
           <Image src={drop} alt='drop' width={9} height={0} />
         </Button>
       </div>
-      <Landing />
-      <Overview />
-      <Schedule />
-      <Faculty />
-      <Books />
-      <Syllabus />
-      <Benefits />
-      <Reviews />
-      <Scholarship />
+      {/* <Landing /> */}
+      {/* <Overview /> */}
+      {/* <Schedule /> */}
+      {/* <Faculty /> */}
+      {/* <Books /> */}
+      {/* <Syllabus /> */}
+      {/* <Benefits /> */}
+      {/* <Reviews /> */}
+      {/* <Scholarship /> */}
+      <School />
       <Download />
       <Footer />
     </div>
