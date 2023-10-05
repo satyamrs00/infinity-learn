@@ -17,6 +17,7 @@ import Scholarship from '@/components/Scholarship';
 import Download from '@/components/Download';
 import Footer from '@/components/Footer';
 import School from '@/components/School';
+import LandingExam from '@/components/LandingExam';
 
 export default function HomePage() {
   return (
@@ -80,6 +81,7 @@ export default function HomePage() {
           <Image src={drop} alt='drop' width={9} height={0} />
         </Button>
       </div>
+      <LandingExam />
       {/* <Landing /> */}
       {/* <Overview /> */}
       {/* <Schedule /> */}
